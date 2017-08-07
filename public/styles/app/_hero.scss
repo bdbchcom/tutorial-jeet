@@ -49,10 +49,16 @@ $subtitle-color: #fff;
   }
 
   a {
+    background: rgba(0, 0, 0, .1);
     color: $title-color;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: .65em;
 
     &:hover {
+      background: rgba(0, 0, 0, .18);
       color: $title-color;
+      text-decoration: none;
     }
   }
 }

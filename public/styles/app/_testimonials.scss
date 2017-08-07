@@ -5,6 +5,10 @@
     @include center($container-width, $container-padding);
   }
 
+  .testimonials__list {
+    @include clearfix();
+  }
+
   .testimonial {
     @include span(1/4, $cycle: 4);
     margin-bottom: 24px;
