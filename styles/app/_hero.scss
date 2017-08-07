@@ -1,0 +1,58 @@
+$background-color: $webadepts-color;
+$title-color: #fff;
+$subtitle-color: #fff;
+
+.hero {
+  background: $background-color;
+  margin-bottom: 75px;
+  padding: 150px 0;
+
+  @media screen and (max-width: 991px) {
+    padding: 60px 0;
+  }
+
+  @media screen and (max-width: 580px) {
+    padding: 40px 0;
+  }
+
+  .hero__container {
+    @include center($container-width, $container-padding);
+  }
+
+  .hero__title {
+    color: $title-color;
+    font-size: 80px;
+    margin: 0;
+
+    @media screen and (max-width: 991px) {
+      font-size: 45px;
+    }
+
+    @media screen and (max-width: 580px) {
+      font-size: 32px;
+    }
+  }
+
+  .hero__subtitle {
+    color: $subtitle-color;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+
+    @media screen and (max-width: 991px) {
+      font-size: 25px;
+    }
+
+    @media screen and (max-width: 580px) {
+      font-size: 18px;
+    }
+  }
+
+  a {
+    color: $title-color;
+
+    &:hover {
+      color: $title-color;
+    }
+  }
+}
