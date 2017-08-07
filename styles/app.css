@@ -105,11 +105,17 @@ h2 {
 }
 
 .hero a {
+  background: rgba(0, 0, 0, 0.1);
   color: #fff;
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: .65em;
 }
 
 .hero a:hover {
+  background: rgba(0, 0, 0, 0.18);
   color: #fff;
+  text-decoration: none;
 }
 
 .companies {
@@ -128,6 +134,12 @@ h2 {
 }
 
 .companies .companies__container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.companies .companies__list::after {
   content: '';
   display: table;
   clear: both;
@@ -209,6 +221,12 @@ h2 {
 }
 
 .testimonials .testimonials__container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.testimonials .testimonials__list::after {
   content: '';
   display: table;
   clear: both;

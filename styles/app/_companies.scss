@@ -8,6 +8,10 @@ $tag-color: #777;
     @include center($container-width, $container-padding);
   }
 
+  .companies__list {
+    @include clearfix();
+  }
+
   .company {
     @include column(1/3, $gutter: $gutter-width);
 
