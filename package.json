@@ -1,13 +1,14 @@
 {
   "name": "tutorial-jeet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jeet Tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "publish": "git subtree push --prefix public origin gh-pages"
   },
   "author": "Webadepts",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
