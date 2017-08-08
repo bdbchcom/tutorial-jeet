@@ -15,10 +15,6 @@ $subtitle-color: #fff;
     padding: 40px 0;
   }
 
-  .hero__container {
-    @include center($container-width, $container-padding);
-  }
-
   .hero__title {
     color: $title-color;
     font-size: 80px;
